@@ -1,6 +1,7 @@
 {{ .Scratch.Add "trace" "<footer.html>" }}
 
 {{ partial "utils/foo" . }}
+{{ partial "utils/baz" . }}
 
 {{ .Scratch.Add "trace" "</footer.html>" }}
 

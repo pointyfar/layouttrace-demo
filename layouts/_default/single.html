@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ .Scratch.Add "trace" "<layouts/single.html>" }}
+
+
+<hr>
+{{ partial "utils/bar" . }}
+
+<div class="content">
+{{ .Content }}
+</div>
+
+<hr>
+{{ .Scratch.Add "trace" "</layouts/single.html>" }}
+{{ end }}

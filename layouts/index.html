@@ -1,16 +1,14 @@
 {{ define "main" }}
 {{ .Scratch.Add "trace" "<layouts/index.html>" }}
 
-<style>
-    td, th {
-        border: 1px solid red;
-    }
-</style>
 <hr>
-{{ partial "utils/foo" . }}
-{{ partial "utils/bar" . }}
-{{ .Content }}
+
+    {{ .Content }}
+    <hr>
+    {{ partial "utils/foo" . }}
+    {{ partial "utils/bar" . }}
 
 <hr>
+
 {{ .Scratch.Add "trace" "</layouts/index.html>" }}
 {{ end }}
