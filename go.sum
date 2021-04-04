@@ -1,4 +1,6 @@
 github.com/pointyfar/hmd-content v1.0.2 h1:ytbFN9QxL33Y/AVOTpIeiDRsKPD+IWAK50P3JqMWMN4=
 github.com/pointyfar/hmd-content v1.0.2/go.mod h1:zV1M9tXLe+8GM2yT1pFaHnYfAf7IViS4skf72ac3/sA=
+github.com/pointyfar/layouttrace v0.0.0-20210404132501-cda6f0d9548f h1:XdZerrxXWdL11mikT7EOhSDCbGpRTf/QNhbzWhflVXk=
+github.com/pointyfar/layouttrace v0.0.0-20210404132501-cda6f0d9548f/go.mod h1:GkBF3EknVqtw/pQcJQZL7aYkf70/aMZGHSSPjGim4xA=
 github.com/sindresorhus/modern-normalize v1.0.0 h1:oPBq3EYTA4U42HYs4nRq9PoTRB3RLM7xzqmUP+S8TOk=
 github.com/sindresorhus/modern-normalize v1.0.0/go.mod h1:3C79aOaTh2aoI/UR3dMMFq/zcdW6ElKzLd5cDS9TKkQ=
