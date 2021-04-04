@@ -8,7 +8,8 @@ A way to trace which layout files are being used to generate a specific page
 
 Ref: https://discourse.gohugo.io/t/server-option-to-output-templates-used/32042/4
 
-The topic above reminded me of this idea I was working on last year. Real life however got in the way, as it has a habit of doing, and I forgot all about it until the topic above.
+I was working on a theme component idea about this last year. Real life however got in the way, and I forgot all about it until the topic above.
+
 
 ## Why
 
