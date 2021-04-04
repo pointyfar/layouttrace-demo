@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{ .Scratch.Add "trace" (slice "<baseof>") }}
+
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+        {{ .Scratch.Add "trace" (slice "</baseof>") }}
+
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{{ .Scratch.Add "trace" "<head.html>" }}
+
+<head>
+    
+    {{ with .Title }}<title>{{.}}</title>{{ end }}
+
+    {{ partial "head/css.html" . }}
+    {{ partial "head/meta.html" . }}
+
+</head>
+
+{{ .Scratch.Add "trace" "</head.html>" }}

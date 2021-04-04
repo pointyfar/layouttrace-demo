@@ -1,0 +1,12 @@
+{{ .Scratch.Add "trace" "<head/meta.html>" }}
+
+<meta charset="utf-8">
+
+{{ $description := .Params.description }}
+{{ with $description }}<meta name="description" content="{{.}}">{{ end }}
+
+{{ $author := .Params.author }}
+{{ with $author}}<meta name="author" content="{{.}}">{{end }}
+
+{{ .Scratch.Add "trace" "</head/meta.html>" }}
+
