@@ -9,8 +9,7 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
-        {{ .Scratch.Add "trace" (slice "</baseof>") }}
-
-
+    
+    {{ .Scratch.Add "trace" (slice "</baseof>") }}
     </body>
 </html>
