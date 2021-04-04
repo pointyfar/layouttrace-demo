@@ -7,6 +7,10 @@
 
 <div class="content">
 {{ .Content }}
+<hr>
+{{ range .Pages }}
+<li><a href="{{ .Permalink }}">{{.Title}}</a></li>
+{{ end }}
 </div>
 
 <hr>
