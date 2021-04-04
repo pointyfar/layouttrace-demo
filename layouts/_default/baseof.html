@@ -12,9 +12,15 @@
         {{- partial "footer.html" . -}}
         </div>
     {{ .Scratch.Add "trace" (slice "</baseof>") }}
-
+    
+    <div class="container">
+        <hr>
     {{ partial "__layouttrace/generatetrace" . }}
     {{ partial "__layouttrace/rendertrace" . }}
-    
+    </div>
+    <hr>
+    <hr>
+    <hr>
+
     </body>
 </html>
